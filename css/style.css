@@ -1,0 +1,97 @@
+@charset "utf-8";
+html, body,input, button, textarea, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small,  strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{border:0;margin:0;padding:0;font-size:100%;vertical-align:baseline;outline:0}
+html, body{overflow: hidden;}
+ul, ol{list-style:none}
+img,section, article, aside, header, footer, nav, dialog, figure {display:block}
+address{font-style:normal}
+a{text-decoration:none}
+textarea{resize:none;font:12px arial}
+h1,h2,h3,h4,h5,h6{font-weight:normal}
+em{font-style:normal}
+/* end / CSS reset */
+#header,#content,#footer{clear:both}
+a{text-decoration:none}
+a:hover{text-decoration:underline}
+::-moz-selection{background:#000;color:#fff;text-shadow:none}
+::selection{background:#000;color:#fff;text-shadow:none}
+input,select,textarea{font:11px arial,helvetica,sans-serif,clean;overflow:auto;resize:vertical}
+label{cursor:pointer}
+body{font:12px arial,helvetica,sans-serif,clean;background-color: #909990;}
+/* end / CSS Default */
+
+.clear {clear:both;zoom:1}
+.right {float:right}
+.left {float:left}
+/* end / position */
+
+.hide{display:none}
+.screen-reader{position:absolute;top:-999em;visibility:hidden}
+/* end / hide elements */
+.fl-right {
+	float:right;
+}
+.fl-left {
+	float:left;
+}
+.cl-right {
+	clear:right;
+}
+.cl-left {
+	clear:left;
+}
+.cl-both {
+	clear:both;
+}
+#container_render{position: absolute}
+#menu{
+	position: absolute;
+	z-index: 100;
+	visibility: hidden;
+}
+#menu ul {
+	width: 100%;
+	padding:0px;
+	margin:0px;
+	list-style:none;
+	z-index: 100;
+}
+#menu ul li { 
+	float: left;
+	padding: 5px;
+	height: 10px;
+}
+#menu ul li a {
+	display: block;
+	text-decoration: none;
+	color: transparent;
+}
+#sobremim{
+	width: 127px;
+	height: 30px;
+	background: transparent url(../img/sobremim.png) no-repeat 0px 30px;
+}
+#portfolio{
+	width: 132px;
+	height: 30px;
+	background: transparent url(../img/portfolio.png) no-repeat 0px 30px;
+}
+#box_texto{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: #000000;
+	color: #EDEDED;
+	overflow: hidden;
+}
+#texto{
+	position: absolute;
+	width: 80%;
+	height: 80%;
+	top: 10%;
+	left:10%;
+}
+#texto span{
+	font-size: 3.9vw;
+	position: absolute;
+	visibility: hidden;
+}
